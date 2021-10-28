@@ -5,9 +5,8 @@ import { GetStaticProps } from 'next';
 import axios from 'axios';
 import { MenuItem } from '../interfaces/menu.interface';
 
-function Home({menu, firstCategory}: HomeProps): JSX.Element {
+function Home({ menu, firstCategory }: HomeProps): JSX.Element {
   const [rating, setRating] = useState<number>(4);
-  console.log(menu, 'menu');
   return (
     <>
       <Htag tag="h1">some text</Htag>
