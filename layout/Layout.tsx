@@ -1,7 +1,7 @@
-import { LayoutProps } from './Layout.props';
 import { Header } from './Header/Header';
 import { Sidebar } from './Sidebar/Sidebar';
 import { Footer } from './Footer/Footer';
+import { LayoutProps } from './Layout.props';
 import styles from './Layout.module.css';
 
 import { FunctionComponent } from 'react';
