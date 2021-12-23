@@ -10,12 +10,14 @@
   margin-top: 20px;
 }
 
-.firstLevelActive, .firstLevel:hover {
+.firstLevelActive,
+.firstLevel:hover {
   color: var(--primary);
   transition: 0.3s ease-in-out all;
 }
 
-.firstLevelActive svg, .firstLevel:hover svg {
+.firstLevelActive svg,
+.firstLevel:hover svg {
   fill: var(--primary);
   transition: 0.3s ease-in-out all;
 }
@@ -36,13 +38,14 @@
 
 .secondLevelBlockOpened {
   display: block;
+  padding: 10px 0 0 10px;
 }
 
 .secondBlock {
   margin-top: 15px;
   margin-left: 12px;
   padding-left: 32px;
-  border-left: 1px solid #DFDFDF;
+  border-left: 1px solid #dfdfdf;
 }
 
 .secondLevelBlockOpened:last-child {
@@ -59,7 +62,8 @@
   line-height: 19px;
 }
 
-.thirdLevelActive, .thirdLevel:hover {
+.thirdLevelActive,
+.thirdLevel:hover {
   color: var(--primary);
   transition: 0.3s ease-in-out all;
 }
